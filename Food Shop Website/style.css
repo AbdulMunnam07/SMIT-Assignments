@@ -1,0 +1,371 @@
+/* For 1st Secton */
+header{
+    width: 100%;
+    height: 80vh;
+    background-color: whitesmoke;
+}
+nav .logo,img{
+    display: flex;
+}
+img{
+    margin-top: 8px;
+    margin-left: 50px;
+    height: 35px;
+}
+#tro{
+    font-family: sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 17px;
+    margin-left: 1px;
+}
+nav ul,li,a{
+    color: black;
+}
+nav ul,li{
+    display: inline;
+}
+nav ul{
+    display: flex;
+    color: black;
+    justify-content: right;
+    align-items: center;
+    flex-direction: row;
+    gap: 6rem;
+    width: 65%;
+    margin-left: 120px
+}
+#btn{
+    background-color: orangered;
+    height: 30px;
+    border: none;
+    color: white;
+    width: 122px;
+    margin-top: 8px;
+    margin-left: 32px;
+}
+.lvl{
+    display: flex;  
+}
+a #omg{
+    height: 20px;
+}
+#mg{
+    width: 50%;
+}
+#mg h1{
+    font-family: sans-serif;
+    font-weight: 780;
+    font-size: 50px;
+    margin-top: 85px;
+    margin-right: 243px;
+    margin-left: 46px;
+}
+#mg p{
+    margin-left: 46px;
+    margin-top: 45px;
+    font-size: larger;
+}
+#mg2 img{
+    width: 50%;
+    height: 275px;
+    width: 460px;
+    margin-top: 95px;
+}
+#btn1{
+    background-color: orangered;
+    color: white;
+    border: none;
+    height: 40px;
+    width: 120px;
+    margin-top: 76px;
+    margin-left: 41px;
+}
+#btn2{
+    background-color: black;
+    color: white;
+    border: none;
+    height: 40px;
+    width: 120px;
+}
+/* For 2nd Section */
+#title{
+    font-weight: 800;
+    margin-top: 120px;
+}
+#paragraph{
+    font-size: larger;
+}
+.cards{
+    display: flex;
+}
+#card1{
+    width: 25%;
+    border: solid;
+    border-color: whitesmoke;
+    height: 328px;
+    margin-left: 129px;
+    margin-top: 60px;
+    margin-right: -73px;
+}
+#card1 img{
+    margin-top: 35px;
+    margin-left: 140px;
+    height: 50px;
+}
+#card1 p{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+#para{
+    text-align: center;
+    margin-top: 25px;
+    color: orangered;
+    font-weight: 300;
+    font-size: medium;
+}
+
+#card2{
+    width: 25%;
+    border: solid;
+    border-color: whitesmoke;
+    height: 328px;
+    margin-left: 100px;
+    margin-top: 60px;
+}
+#card2 img{
+    margin-top: 35px;
+    margin-left: 140px;
+    height: 50px;
+}
+#card2 p{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+#parag{
+    text-align: center;
+    margin-top: 25px;
+    color: orangered;
+    font-weight: 300;
+    font-size: medium;
+}
+
+#card3{
+    width: 25%;
+    border: solid;
+    border-color: whitesmoke;
+    height: 328px;
+    margin-left: 30px;
+    margin-top: 60px;
+}
+#card3 img{
+    margin-top: 35px;
+    margin-left: 140px;
+    height: 50px;
+}
+#card3 p{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+#paragar{
+    text-align: center;
+    margin-top: 25px;
+    color: orangered;
+    font-weight: 300;
+    font-size: medium;
+}
+#btn2{
+    background-color: black;
+    color: white;
+    margin-top: 45px;
+}
+/* for 3rd Section */
+#fresh{
+    font-weight: 700;
+}
+.heyboi1{
+    display: flex;
+    margin-left: 60px;
+}
+#enough{
+    width: 50%;
+}
+#btn3{
+    background-color: black;
+    color: white;
+    border: none;
+    height: 35px;
+    width: 120px;
+    margin-top: 30px;
+}
+#enough2{
+    width: 50%;
+}
+#enough2 img{
+    height: 170px;
+    width: 250px;
+    margin-top: 40px;
+    margin-left: 260px;
+}
+.heyboi2{
+    display: flex;
+    margin-left: 60px;
+    margin-top: 60px;
+}
+#enough3{
+    width: 50%;
+}
+#btn4{
+    background-color: black;
+    color: white;
+    border: none;
+    height: 35px;
+    width: 120px;
+    margin-top: 30px;
+}
+#enough4{
+    width: 50%;
+}
+#enough4 img{
+    height: 200px;
+    width: 120px;
+    margin-top: 40px;
+    margin-left: 315px;
+}
+.heyboi3{
+    display: flex;
+    margin-left: 60px;
+    margin-top: 60px;
+}
+#enough5{
+    width: 50%;
+}
+#btn5{
+    background-color: black;
+    color: white;
+    border: none;
+    height: 35px;
+    width: 120px;
+    margin-top: 30px;
+}
+#enough6{
+    width: 50%;
+}
+#enough6 img{
+    height: 200px;
+    width: 200px;
+    margin-top: 40px;
+    margin-left: 260px;
+}
+/* for 4ht Section  */
+.letstartchacha{
+    margin-top: 120px;
+}
+#chachag{
+    font-weight: 650;
+}
+#chacha{
+    height: 230px;
+    margin-top: 60px;
+}
+#chachapara{
+    margin: 65px;
+    text-align: center;
+}
+/* for section 5 */
+#enough7{
+    width: 50%;
+}
+#contacthead{
+    font-weight: 600;
+    font-family: sans-serif;
+}
+#name{
+    border: none;
+    opacity: 0.5;  
+}
+#contact{
+    border: none;
+    opacity: 0.5;
+}
+#email{
+    border: none;
+    opacity: 0.5;
+}
+#message{
+    border: none;
+    opacity: 0.5;
+}
+.form01{
+    margin-left: 60px;
+    margin-top: 200px;
+    display: flex;
+}
+#btn6{
+    color: white;
+    background-color: orangered;
+    border: none;
+    width: 110px;
+    height: 35px;
+}
+#enough8{
+    width: 50%;
+}
+#enough8 img{
+    width: 250px;
+    height: 400px;
+    margin-left: 393px;
+    margin-top: 80px;
+}
+/* for last Section  */
+.endsection{
+    margin-left: 60px;
+    margin-top: 200px;
+    display: flex;
+}
+#enough9{
+    width: 20%;
+}
+#enough10{
+    width: 20%;
+}
+#enough11{
+    width: 20%;
+}
+#enough12{
+    width: 20%;
+}
+#enough13{
+    display: flex;
+    margin-left: 0px;
+}
+#lastpara{
+    font-size: larger;
+}
+#setup1{
+    margin-left: 0px;
+}
+#setup2{
+    margin-left: 15px;
+}
+#setup3{
+    margin-left: 15px;
+}
+#setup4{
+    margin-left: 15px;
+}
+#btn7{
+    margin-top: 20px;
+    background-color: orangered;
+    color: white;
+    border: none;
+    width: 120px;
+    height: 30px;
+}
+#footerG{
+    text-align: center;
+    margin-top: 70px;
+    background-color: whitesmoke;
+    height: 50px;
+    padding-top: 20px;
+}
