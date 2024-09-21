@@ -35,13 +35,13 @@ const StudentForm = () => {
 
   const handleSubmit = (values, { resetForm }) => {
     if (editIndex === null) {
-      setStudents([...students, values]);  // Add new student
+      setStudents([...students, values]); 
     } else {
       const updatedStudents = students.map((student, index) =>
         index === editIndex ? values : student
       );
-      setStudents(updatedStudents);  // Update existing student
-      setEditIndex(null);  // Reset edit mode
+      setStudents(updatedStudents); 
+      setEditIndex(null);  
     }
     resetForm();
   };
@@ -140,6 +140,8 @@ const StudentForm = () => {
           </Form>
         )}
       </Formik>
+
+      
 
       {/* Student List */}
       <h2 className="text-center my-4 font-bold">Student List</h2>
